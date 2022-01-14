@@ -11,5 +11,5 @@ foreach ($data as $line_num=>$line)
 {
 	//find all occurrences of text in square brackets, and print that text to the console.
     preg_match_all("/\[[^\]]*\]/", $line, $matches);
-    print_r($matches[0]);
+    print_r($matches[0]); 
 }
